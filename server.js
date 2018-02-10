@@ -44,6 +44,6 @@ app.post("/thanks", (req, res) => {
     .catch(err => console.log(err));
 });
 
-app.listen(8080, () => {
+app.listen(process.env.PORT, () => {
   console.log("listening at http://localhost:8080");
 });
