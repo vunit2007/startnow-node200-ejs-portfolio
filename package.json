@@ -2,10 +2,10 @@
   "name": "startnow-node200-ejs-portfolio",
   "version": "1.0.0",
   "description": "My Personal Portfolio",
-  "main": "server.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "build": "gulp watch",
-    "start": "node server"
+    "build": "node server",
+    "start": "gulp watch"
   },
   "engines": {
     "node": "10.3.0",
