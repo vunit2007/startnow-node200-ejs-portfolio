@@ -4,8 +4,8 @@
   "description": "My Personal Portfolio",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "node gulpfile.js",
-    "build": "gulp watch"
+    "start": "gulp",
+    "build": "node server"
   },
   "engines": {
     "node": "10.3.0",
