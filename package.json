@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "build": "gulp watch",
-    "start": "node server.js"
+    "start": "node server"
   },
   "engines": {
     "node": "10.3.0",
@@ -28,7 +28,9 @@
     "googleapis": "^25.0.0",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.7.0",
+    "loaderjs": "^1.0.0",
     "morgan": "^1.9.0",
+    "node-sass": "^4.12.0",
     "twilio": "^3.11.3"
   },
   "devDependencies": {
