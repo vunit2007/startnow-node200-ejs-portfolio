@@ -1,11 +1,16 @@
+
+  // "main": "server/index.js",
+
+  //   "build": "npm run less && webpack",
+  //   "start": "npm run build && node server/index.js",
+
 {
   "name": "startnow-node200-ejs-portfolio",
   "version": "1.0.0",
   "description": "My Personal Portfolio",
-  "main": "gulpfile.js",
+  "main": "server.js",
   "scripts": {
-    "build": "node server",
-    "start": "gulp watch"
+    "start": "npm run build && node server.js"
   },
   "engines": {
     "node": "10.3.0",
