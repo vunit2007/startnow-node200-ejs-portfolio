@@ -4,7 +4,12 @@
   "description": "My Personal Portfolio",
   "main": "server.js",
   "scripts": {
-    "start": "npm run build && node server"
+    "build": "gulp watch",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "10.3.0",
+    "npm": "6.4.1"
   },
   "repository": {
     "type": "git",
