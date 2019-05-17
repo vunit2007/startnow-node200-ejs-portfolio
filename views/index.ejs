@@ -1,249 +1,370 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title> Vy's Portfolio</title>
-      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css' />
-      <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Homemade+Apple|Reenie+Beanie|Telex" rel="stylesheet">
-      <link rel='stylesheet'  type="text/css" href='/css/style.css' >
-      <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-      <script defer type="text/javascript" src="/js/script.js"></script>
-    </head>
+<!doctype html>
+<html lang="en">
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title> Web Developer | V-Unit</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel='stylesheet' type="text/css" href='/css/styles.css'>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700|Special+Elite|Permanent+Marker" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="57x57" href="../image/apple-icon-57x57.png">
+  <link rel="../image/apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="../image/apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="../image/apple-touch-icon" sizes="76x76" href="../image/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../image/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../image/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../image/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../image/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../image/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="../image/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../image/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../image/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../image/favicon-16x16.png">
+  <link rel="manifest" href="../image/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../image/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
 
-    <body>
+<body>
 
+      <header class="main_nav">
 
-     <div class="bg1">
-         <div class="name">Vy Nguyen</div>
-    
-  
+          <div class="menu-row">
+              <a class="logo" href="#">V/N</a>
 
-         <div class="typewriter">
-            <h1>Software Developer</h1>
+              <div class="mobile-toggle">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
 
-       </div>
-     </div>
-     
-     <div id="navbar">
-        <a href="#aboutMe">About Me</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#we">Background</a>
-        <a href="#contactMe">Contact Me</a>
+              <nav>
+
+                      <a href="#about">About Me</a>
+                      <a href="#skills">Skills</a>
+                      <a href="/portfolio" target="_blank">Portfolio</a>
+                      <a href="resume.pdf" target="_blank">Resume</a></li>
+                      <a href="#contact">Contact Me</a>
+
+              </nav>
+
+          </div> <!-- / row -->
+
+  </header>
+<section id="hero">
+    <canvas id="hero-canvas" width="1920" height="1080"></canvas>
+    <div class="hero-bg">
+      <div class="intro">
+      <h1>Vy Nguyen</h1>
+      <p class="tagline">I develop effective, responsive websites that <br>ensure positive user experiences.</p>
+      </div>
+      <a href="#about" class="down">
+          <i class="fas fa-angle-double-down"></i></a>
+
+        <div class="bird-container bird-container--one">
+          <div class="bird bird--one"></div>
+        </div>
+
+        <div class="bird-container bird-container--two">
+          <div class="bird bird--two"></div>
+        </div>
+
+        <div class="bird-container bird-container--three">
+          <div class="bird bird--three"></div>
+        </div>
+
+        <div class="bird-container bird-container--four">
+          <div class="bird bird--four"></div>
+        </div>
+
       </div>
 
-     
-     <div class="bg2" id="aboutMe">
-        <div class="ptext">
-          <span class="border">
-           About Me
-     
-          </span>
+
+</section>
+
+
+<section id="about">
+
+<div class="about-bg"></div>
+<div class="title-mobile">About Me</div>
+<div class='about-wrapper mx-sm-4'>
+
+        <img src="../image/vy5.png">
+      <div class='bio-wrapper'>
+          <div class="title">About Me</div>
+        <div class="bio">
+
+            Hello world! My name is Vy and I live in San Diego, CA. I got my certification in full stack web development at Origin Code Academy in April 2018. Afterwards, I worked as a front-end developer for <a href="http://tragic.media" target="_blank">Tragic Media</a>, a small digital technology company located in downtown San Diego. I love what I do and I am passionate about connecting the art of design with the art of programming. I enjoy writing clean and efficient code, learning new skill sets, solving technical problems, and working on a team with creative individuals. <br><br>To learn more, <a href="/resume.pdf" target="_blank">Click here</a> to download my resume.
+
+        </div>
+
+      </div>
+    </div>
+</section>
+
+
+
+<section id="skills">
+  <div class="skill-wrapper">
+
+          <div class="title">Skill Sets</div>
+
+
+    <div class="skill-filter">
+        <div id="myBtnContainer">
+          <!-- <button class="btn active" onclick="filterSelection('all')"> Show All</button> -->
+          <button class="btns active" onclick="filterSelection('front')"> Front-end</button>
+          <button class="btns" onclick="filterSelection('back')"> Back-end</button>
+          <button class="btns" onclick="filterSelection('cms')"> CMS</button>
+          <button class="btns" onclick="filterSelection('agile')"> Agile</button>
+          <button class="btns" onclick="filterSelection('other')"> Other Tools</button>
+        </div>
+
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+          <div class="column front">
+            <div class="img-wrapper">
+            <div class="content">
+              <div class="icon-wrapper">
+              <img src="../image/javascript.png" alt="JavaScript">
+              </div>
+            <p>JavaScript</p>
+            </div>
+            <div class="content">
+                <div class="icon-wrapper">
+              <img src="../image/react.png" alt="React">
+                </div>
+              <p>React</p>
+            </div>
+            <div class="content">
+                <div class="icon-wrapper">
+              <img src="../image/redux.png" alt="Redux">
+                </div>
+              <p>Redux</p>
+            </div>
+            <div class="content">
+                <div class="icon-wrapper">
+              <img src="../image/angular.png" alt="AngularJS">
+                </div>
+              <p>AngularJS</p>
+          </div>
+          <div class="content">
+              <div class="icon-wrapper">
+              <img src="../image/html.png" alt="HTML5">
+              </div>
+              <p>HTML5</p>
+            </div>
+            <div class="content">
+                <div class="icon-wrapper">
+              <img src="../image/css.png" alt="CSS3">
+                </div>
+              <p>CSS3</p>
+            </div>
+            <div class="content">
+                <div class="icon-wrapper">
+              <img src="../image/sass.png" alt="Sass">
+                </div>
+              <p>Sass</p>
+            </div>
+            <div class="content">
+              <div class="icon-wrapper">
+                <img src="../image/bootstrap.png" alt="Bootstrap">
+            </div>
+                <p>Bootstrap</p>
+              </div>
+            <div class="content">
+                <div class="icon-wrapper">
+              <img src="../image/flexbox.png" alt="Flexbox">
+            </div>
+              <p>Flexbox</p>
+
+            </div>
         </div>
       </div>
 
-      <div class="info2">
-
-<br>
-         <div class="mypic"><img src='../images/portfoliopic.jpg' height="380px"/></div>
-         <center><div class="borderquote"><div class="quote">"Much is given, much is expected"</div></div><br><br><br></center>
-<div class="bio">
-           <p>Born in Viet Nam, I came to America with my family when I was 4 years old.  I attended East Texas Baptist University and graduated Magna Cum Laude with a Bachelor of Arts in 4 years.  While in college, I was involved with Alpha Chi Honor Society, Habitat For Humanity, Intramural Sports, and Kid's Club. 
-             I moved to Houston, Texas after college and worked as a financial consultant for AXA Advisors for over 3 years.  Eventually, I relocated to San Diego, California to work as an investment consultant for Scottrade.  I have over 5 years of service in financial services and my experiences have taught me valuable interpersonal relationship skills, good time management, high attention to details, how to become an independent learner, and of course how to invest on my own.  
-            Even though I am a big peopleperson, I have always had a curiosity, passion, and desire to learn how to code and become a web/software developer.  I love learning new software languages, building projects, solving problems, and designing websites.  I can do it all day and I want to become a master at it.  I am thankful for Origin Code Academy and a second chance to pursue my dream career. 
-            Outside of coding, I enjoy reading books, going to my pilates class, doing yoga, eating out at new restaurants, and hanging out with my girlfriends.  I believe I am an excellent addition to any company or team, because of my work ethic, discipline, reliability, creativity, competitive nature, fear of failure, and positive attitude.  
-           </p>
-          </div>
-        </div>
-
-        <div class="bg3" id="skills">
-            <div class="ptext">
-              <span class="border">
-               Skills
-         
-              </span>
+          <div class="column back">
+              <div class="img-wrapper my-3">
+              <div class="content">
+                  <div class="icon-wrapper">
+                <img src="../image/node.png" alt="Node.js">
+                  </div>
+                <p>Node.js</p>
+              </div>
+                <div class="content">
+                    <div class="icon-wrapper">
+                <img src="../image/mysql.png" alt="MySQL">
+                    </div>
+                <p>MySQL</p>
+                </div>
+                <div class="content">
+                    <div class="icon-wrapper">
+                <img src="../image/mongodb.png" alt="MongoDB">
+                    </div>
+                <p>MongoDB</p>
+                </div>
+                <div class="content">
+                    <div class="icon-wrapper">
+                <img src="../image/loopback.png" alt="Loopback">
+                    </div>
+                <p>Loopback</p>
+                </div>
+                <div class="content">
+                    <div class="icon-wrapper">
+                <img src="../image/redis.png" alt="Redis">
+                    </div>
+                <p>Redis</p>
+              </div>
             </div>
           </div>
 
-          <section class="info3">
-            <div class="glasses2"><img src='../images/glasses2.gif' height="150px"/></div><br>
-            <div class="Skills22">
-            <div class="skills2">JavaScript</div>  
-            <div class="skills2">React</div>   
-            <div class="skills2">Redux</div> 
-            <div class="skills2">HTML</div> 
-            <div class="skills2">CSS</div>     
-            <div class="skills2">MongoDB</div>  
-            <div class="skills2">Node.JS</div>   
-            <div class="skills2">Culp</div> 
-            <div class="skills2">Git</div> 
-            <div class="skills2">Express</div> 
-            <div class="skills2">Sql</div>  
-            <div class="skills2">Redis</div>   
-            <div class="skills2">Mocha</div> 
-            <div class="skills2">CircleCI</div> 
-            <div class="skills2">Webpack</div> 
-            <div class="skills2">Chai</div> 
-            </div>
-      
-            
-    
-            </section>
-
-            <div class="bg4" id="projects">
-                <div class="ptext">
-                  <span class="border">
-                  Projects
-             
-                  </span>
+            <div class="column cms">
+                <div class="img-wrapper my-3">
+                <div class="content">
+                    <div class="icon-wrapper">
+                  <img src="../image/wordpress.png" alt="Wordpress">
+                    </div>
+                  <p>Wordpress</p>
+                </div>
+                  <div class="content">
+                      <div class="icon-wrapper">
+                  <img src="../image/drupal.png" alt="Drupal">
+                      </div>
+                  <p>Drupal</p>
                 </div>
               </div>
-        
-              <section class="info4">
-        
-                  <div class="projects">
-                    <p>
-                      Click on the demos below to check out my cool projects and apps! :)
-                    </p>
-                       <div class="pic1border">
-                      <div class="pic1"><a href="https://vn-mortgagecalculator.herokuapp.com/" target="_blank"><img src='../images/project1.png' height="300px" width="350px"/></a>  
-                      </div>
-                        <div class="desc">This calculator will help you figure out your montly mortgage payment.</div>
+            </div>
+
+            <div class="column agile">
+                <div class="img-wrapper my-3">
+                <div class="content">
+                    <div class="icon-wrapper">
+                  <img src="../image/jira.png" alt="Jira">
 
                     </div>
+                  <p>Jira</p>
 
-                    <div class="pic2border">
-                      <div class="pic2"><a href="https://vn-vstda.herokuapp.com/" target="_blank"><img src='../images/project2.png' height="300px" width="350px"/></a>
-                      </div>
-                        <div class="desc">Organize your day better with a simple and easy to use To-Do List.</div>
-                     </div>
-
-                     <div class="pic3border">
-                     <div class="pic3"><a href="https://vn-topspots.herokuapp.com/" target="_blank"><img src='../images/project3.png' height="300px" width="350px"/></a>
-                     </div>
-                      <div class="desc">Check out San Diego's Top Spots for adventures and fun.</div>
+                </div>
+                <div class="content">
+                    <div class="icon-wrapper">
+                  <img src="../image/bitbucket.png" alt="Bitbucket">
                     </div>
-                  
-              
+                  <p>Bitbucket</p>
+                </div>
+                <div class="content">
+                    <div class="icon-wrapper">
+                  <img src="../image/teamwork.png" alt="Teamwork">
                     </div>
-                </section>
-
-                <div class="bg5" id="we">
-                    <div class="ptext">
-                      <span class="border">
-                       Background
-                 
-                      </span>
-                    </div>
+                  <p>Teamwork</p>
+              </div>
+              </div>
+            </div>
+          <div class="column other">
+              <div class="img-wrapper my-3">
+              <div class="content">
+                  <div class="icon-wrapper">
+                <img src="../image/git.png" alt="Git">
                   </div>
-            
-                  <section class="info5">
-                        
-                        <div class="timeline">
-                          <ul>
-                            <li>
-          
-                                <div>
-                                <time>Sept 2017 - Present</time><br><br>  Enrolled in <font color="white">Origin Code Academy</font>.
-                              </div>
-                            </li>
-                            <li>
-                              <div>
-                                <time>Jan 2017 - Aug 2017</time><br><br> Worked at <font color="white">JP Morgan Chase </font>as a Private Client Banker, managing a book of business of clients with a net worth of at least $250,000 or higher. 
-                              </div>
-                            </li>
-                            <li>
-                                <div>
-                                <time>Sept 2015 - Dec 2016</time><br><br>Worked at <font color="white">Scottrade</font> as an Investment Consultant, helping clients with their investment portfolios.
-                              </div>
-                            </li>
-                            <li>
-                              <div>
-                                <time>Feb 2012 - Aug 2015</time><br> <br>Worked at <font color="white">AXA Advisors</font> as a Financial Consultant, selling life insurance, annuities, college savings plan, and managed money. 
-                              </div>
-                            </li>
-                            <li>
-                                <div>
-                                <time>Sept 2011 - Feb 2012</time><br><br> Studied for my <font color="white">Series 7</font> - General Securities Representative Qualification Examination and
-                                    <font color="white">Texas General Lines</font> - Life, Accident, Health & HMO.
-                               
-                              </div>
-                            </li>
-                            <li>
-                              <div>
-                                <time>June 2011 - Sept 2011</time><br><br>Worked at <font color="white">Abercrombie & Fitch</font> as an Assistant Manger, hiring new employees and delegating tasks. 
-                              </div>
-                            </li>
-                            <li>
-                              <div>
-                                <time>Jan 2008 - May 2011</time><br><br> Graduated from <font color="white">East Texas Baptist University</font> with a Bachelor of Arts and 3.7 GPA.
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
+                <p>Git</p>
+              </div>
+              <div class="content">
+                  <div class="icon-wrapper">
+                  <img src="../image/command.png" alt="Command Line">
+                  </div>
+                  <p>Command <br>Line</p>
+                </div>
+              <div class="content">
+                  <div class="icon-wrapper">
+                <img src="../image/vsc.png" alt="Visual Studio Code">
+                  </div>
+                <p>VS Code</p>
+              </div>
+                <div class="content">
+                    <div class="icon-wrapper">
+                <img src="../image/xcode.png" alt="Xcode">
+                    </div>
+                <p>Xcode</p>
+                </div>
+                <div class="content">
+                    <div class="icon-wrapper">
+                <img src="../image/photoshop.png" alt="Photoshop">
+                    </div>
+                <p>Photoshop</p>
+                </div>
+                <div class="content">
+                    <div class="icon-wrapper">
+                <img src="../image/ftp.png" alt="FileZilla">
+                    </div>
+                <p>FileZilla</p>
+                </div>
+              </div>
+          </div>
+        <!-- END GRID -->
+        </div>
 
-          
-                    </section>
+    </div>
+  </div>
+</section>
 
-                    <div class="bg6" id="contactMe">
-                        <div class="ptext">
-                          <span class="border">
-                           Contact Me
-                     
-                          </span>
-                        </div>
-                      </div>
-                
-                      <section class="info6">
-                <p>Let's keep in touch!</p><br>
-                          <div class="container2">
-                              <form action="/thanks" method="post">
-                            
-                                <label for="fname">Name</label><br>
-                                <input type="text" id="name" name="name" placeholder="Name"><br>
-                            
-                                <label for="lname">E-mail Address</label><br>
-                                <input type="text" id="email" name="email" placeholder="E-mail Address"><br>
-                            
-        
-                                <label for="lname">Company</label><br>
-                                <input type="text" id="company" name="company" placeholder="Company"><br>
+<section id="contact">
 
-                                <label for="subject">Subject</label><br>
-                                <textarea id="subject" name="subject" placeholder="Write something.."></textarea><br>
-                            
-                                <input type="submit" value="Submit">
-                            
-                              </form>
-                            </div><br>
-              
-                        </section>
-                      
-                        <section class="info7">
+    <div class="v"><div class="v-overlay"></div>
+
+      <!-- bubble with z-index here -->
+    </div>
+    <div class="contact-box mx-sm-4">
+      <div class="title">Contact Me</div>
+        <form action="/thanks" method="post">
+
+              <div class="contact-field"><img src="../image/c3po.png">
+              <input type="text" class="name" name="name" placeholder="Name">
+              </div>
+
+          <div class="contact-field">
+          <img src="../image/bbtop.png">
+          <input type="text" class="email" name="email" placeholder="E-mail Address">
+          </div>
+          <div class="contact-field"><img src="../image/falcon.png">
+          <input type="text" class="company" name="company" placeholder="Company">
+          </div>
+          <div class="message-field">
+          <textarea class="subject" name="subject" placeholder="V-Unit, I am your father..."></textarea>
+          </div>
+          <input class="btn" type="submit" value="Submit">
+        </form>
+        </div>
+    <div class="luke"><div class="luke-overlay"></div></div>
+
+  </section>
 
 
 
-                          <div class="links">
-                      <div class="copyrights"><p>@2018 Vy Nguyen</p></div>
-        
-                              <div class="github"><a href="https://github.com/vunit2007" target="_blank"><img src='../images/github.png' height="40px" /></a>  
-                              </div>
-                            
-        
-                
-                              <div class="linkedin"><a href="https://www.linkedin.com/in/vy-nguyen-715417102" target="_blank"><img src='../images/linkedin.png' height="40px"/></a>
-                              </div>
-                             
-                             <div class="email"><a href="mailto:vytnguyen11@gmail.com" target="_blank"><img src='../images/email.png' height="40px"/></a>
-                      
-                            </div>
-                          
-                      
-                            </div>
-                          </section>
 
 
 
-    </body>
-  </html>
+  <footer>
+      <div class="footer-wrapper">
+
+      <div class="copyrights"><span>V-UNIT</span>&ensp;&copy;2019 Vy Nguyen.  All Rights Reserved. </div>
+      <div class="social">
+        <a href="mailto:vytnguyen11@gmail.com" target="_blank"><i class="fas fa-envelope-open"></i></a><a href="https://github.com/vunit2007" target="_blank"><i class="fab fa-github"></i></a><a href="https://www.linkedin.com/in/vy-nguyen-715417102/" target="_blank"><i class="fab fa-linkedin-in" target="_blank"></i></a>
+        <a href="https://twitter.com/vunitxo" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    </footer>
+
+
+
+<script type="text/javascript" src="../js/menu.js"></script>
+<script type="text/javascript" src="../js/down.js"></script>
+<script type="text/javascript" src="../js/hero.js"></script>
+<script type="text/javascript" src="../js/skillset.js"></script>
+
+</body>
+
+</html>

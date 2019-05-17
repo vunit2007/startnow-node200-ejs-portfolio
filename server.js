@@ -14,7 +14,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.use("/profile", profile);
-
 app.set("views", "./views");
 
 app.set("view engine", "ejs");
@@ -23,8 +22,13 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+
 app.get("/contact", (req, res) => {
   res.render("contact");
+});
+
+app.get("/portfolio", (req, res) => {
+  res.render("portfolio");
 });
 
 app.post("/thanks", (req, res) => {
@@ -44,6 +48,7 @@ app.post("/thanks", (req, res) => {
     .catch(err => console.log(err));
 });
 
-app.listen(process.env.PORT, () => {
-  console.log("listening at http://localhost:8080");
+app.listen(process.env.PORT || 3000, () => {
+  console.log("listening at http://localhost:3000");
 });
+
