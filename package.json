@@ -4,7 +4,7 @@
   "name": "startnow-node200-ejs-portfolio",
   "version": "1.0.0",
   "description": "My Personal Portfolio",
-  "main": "server.js",
+  "main": "gulpfile.js",
   "scripts": {
     "start": "gulp watch",
     "build": "npm run build && node server.js"
