@@ -5,8 +5,8 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messages.create ({
 to: '16194848576',
-from: '16195865063',
-body: 'Hello Vy, do not forget to go to Monkey King at 8pm tonight' 
+from: '6193050958',
+body: 'I love pink <3'
 
 })
 
