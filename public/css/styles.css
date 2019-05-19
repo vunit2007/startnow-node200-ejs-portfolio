@@ -994,10 +994,12 @@ footer {
       background-image: linear-gradient(to top, #f88379, #011230);
       margin: -50px 0 0;
       padding: 55px 30px 30px; }
+  #portfolio .section-title {
+    margin: 0px auto 24px; }
   .updated .blog-card,
   .updated .alt {
     flex-direction: column;
-    margin: 0px auto 50px; }
+    margin: 0px auto 24px; }
   .updated .meta {
     min-height: 300px; }
   .updated .photo {
@@ -1062,7 +1064,7 @@ footer {
     font-weight: bold;
     letter-spacing: 1px; }
   #hero .tagline {
-    max-width: 230px;
+    max-width: 275px;
     line-height: 1.3; }
   #hero p {
     margin-bottom: 160px; }
@@ -1086,7 +1088,7 @@ footer {
     font-size: 12px;
     letter-spacing: 1px; }
   #portfolio-hero .portfolio-header {
-    padding: 0 15px 40px; }
+    padding: 0 15px 100px; }
   #portfolio-hero .p-title {
     font-size: 51px; }
   #portfolio-hero .fas {
@@ -1125,7 +1127,7 @@ footer {
       #portfolio .updated .txt, #portfolio .updated .x {
         display: none; }
   #contact img {
-    width: 44px;
+    width: 46px;
     height: 44px; }
   #contact .contact-field input,
   #contact .message-field textarea,
