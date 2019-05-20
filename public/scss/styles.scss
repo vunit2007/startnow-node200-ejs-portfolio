@@ -1549,6 +1549,7 @@ nav {
   }
   #thank-you {
     .swty {
+      background: linear-gradient(to bottom, black, $lightblue,black), url('../image/tri5.png');
       height: 280px;
       width: 280px;
       z-index: 0;
