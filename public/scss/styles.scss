@@ -1549,7 +1549,8 @@ nav {
   }
   #thank-you {
     .swty {
-      background: url('../image/thankyou.png');
+      background: url('../image/thankyou.png'), radial-gradient( rgba(246,85,120,.5)10%, rgba(1, 18, 48,.9));
+      background-size: cover;
       height: 280px;
       width: 280px;
       z-index: 0;
