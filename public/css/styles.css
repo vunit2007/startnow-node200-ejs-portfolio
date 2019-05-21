@@ -1161,7 +1161,7 @@ footer {
   #contact .contact-field,
   #contact .message-field textarea {
     border: 2px solid #014bb4; }
-  #contact .message-field textarea {
+  #contact .message-field {
     height: 200px; }
   #contact .message
 .contact-field input,
