@@ -1130,6 +1130,7 @@ nav {
         padding: 10px;
         color: $hotpink;
         border: 3px solid $lightblue;
+        border-radius: 0px;
         &:focus {
           outline: none;
         }
@@ -1540,6 +1541,10 @@ nav {
       width: 48px;
       height: 44px;
     }
+    .contact-field,
+    .message-field textarea {
+      border: 2px solid $lightblue;
+    }
     .contact-field input,
     .message-field textarea,
     .contact-field::placeholder,
@@ -1549,7 +1554,7 @@ nav {
   }
   #thank-you {
     .swty {
-      background: url('../image/thankyou.png'), radial-gradient( rgba(246,85,120,.5)10%, rgba(1, 18, 48,.9));
+      background: url('../image/thankyou.png'), radial-gradient( rgba(246,85,120,.5), rgba(1, 18, 48,.9));
       background-size: cover;
       height: 280px;
       width: 280px;

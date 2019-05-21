@@ -863,7 +863,8 @@ nav {
       width: 100%;
       padding: 10px;
       color: #f65578;
-      border: 3px solid #014bb4; }
+      border: 3px solid #014bb4;
+      border-radius: 0px; }
       #contact .message-field textarea:focus {
         outline: none; }
     #contact .message-field ::placeholder {
@@ -1153,13 +1154,16 @@ footer {
   #contact img {
     width: 48px;
     height: 44px; }
+  #contact .contact-field,
+  #contact .message-field textarea {
+    border: 2px solid #014bb4; }
   #contact .contact-field input,
   #contact .message-field textarea,
   #contact .contact-field::placeholder,
   #contact .message-field::placeholder {
     font-size: 16px; }
   #thank-you .swty {
-    background: url("../image/thankyou.png"), radial-gradient(rgba(246, 85, 120, 0.5) 10%, rgba(1, 18, 48, 0.9));
+    background: url("../image/thankyou.png"), radial-gradient(rgba(246, 85, 120, 0.5), rgba(1, 18, 48, 0.9));
     background-size: cover;
     height: 280px;
     width: 280px;
