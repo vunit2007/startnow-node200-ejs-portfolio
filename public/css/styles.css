@@ -1159,6 +1159,7 @@ footer {
   #contact .message-field::placeholder {
     font-size: 16px; }
   #thank-you .swty {
+    background: url("../image/thankyou.png");
     height: 280px;
     width: 280px;
     z-index: 0;
