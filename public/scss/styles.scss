@@ -454,7 +454,6 @@ nav {
   justify-content: center;
   a {
     font-weight: 700;
-    text-decoration: underline;
     &:after {
       content: "\f061";
       font-family: FontAwesome;
@@ -1226,7 +1225,6 @@ nav {
         font-size: 14px;
         margin: auto 0;
         font-weight: 300;
-        padding: 5px 0;
         display: flex;
         flex-wrap: wrap;
         span {
@@ -1535,7 +1533,7 @@ nav {
       }
     }
     .updated {
-      padding: 100px 15px 0px;
+      padding: 100px 15px 30px;
       .txt, .x {
         display: none;
       }
@@ -1543,7 +1541,7 @@ nav {
   }
   #contact {
     img {
-      width: 51px;
+      width: 53px;
       height: 47px;
     }
     .contact-field,
@@ -1561,7 +1559,7 @@ nav {
       font-size: 16px;
     }
     .contact-box {
-      max-width: 320px;
+      max-width: 350px;
     }
     .btn {
       margin-top: 0px;

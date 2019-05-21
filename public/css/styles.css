@@ -326,8 +326,7 @@ nav {
   display: flex;
   justify-content: center; }
   #about a {
-    font-weight: 700;
-    text-decoration: underline; }
+    font-weight: 700; }
     #about a:after {
       content: "\f061";
       font-family: FontAwesome;
@@ -941,7 +940,6 @@ footer {
     font-size: 14px;
     margin: auto 0;
     font-weight: 300;
-    padding: 5px 0;
     display: flex;
     flex-wrap: wrap; }
     footer .copyrights span {
@@ -1152,11 +1150,11 @@ footer {
       #portfolio .featured .ficus-title {
         font-size: 24px; }
     #portfolio .updated {
-      padding: 100px 15px 0px; }
+      padding: 100px 15px 30px; }
       #portfolio .updated .txt, #portfolio .updated .x {
         display: none; }
   #contact img {
-    width: 51px;
+    width: 53px;
     height: 47px; }
   #contact .contact-field,
   #contact .message-field textarea {
@@ -1170,7 +1168,7 @@ footer {
   #contact .message-field ::placeholder {
     font-size: 16px; }
   #contact .contact-box {
-    max-width: 320px; }
+    max-width: 350px; }
   #contact .btn {
     margin-top: 0px; }
   #thank-you .swty {
