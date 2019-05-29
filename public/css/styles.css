@@ -386,6 +386,24 @@ nav {
     display: flex;
     flex-direction: column;
     max-width: 1200px; }
+  #skills .fas {
+    color: #f65578;
+    font-size: 22px; }
+  #skills a {
+    font-weight: 700; }
+    #skills a:after {
+      content: "\f061";
+      font-family: FontAwesome;
+      margin-left: -10px;
+      opacity: 0;
+      vertical-align: middle;
+      transition: margin .3s, opacity .3s; }
+    #skills a:hover {
+      color: #f65578; }
+  #skills a:hover:after {
+    margin-left: 8px;
+    opacity: 1;
+    color: #f65578; }
   #skills img {
     padding: 28px;
     height: 120px;
@@ -399,11 +417,23 @@ nav {
     text-align: center;
     font-size: 14px;
     margin-bottom: 0px; }
+  #skills .port-wrapper {
+    display: flex;
+    justify-content: center; }
+  #skills .port-mess {
+    letter-spacing: 2px;
+    padding: 30px 40px;
+    font-size: 16px;
+    width: fit-content;
+    margin: 20px 20px 0px;
+    border: 1px dotted gray;
+    flex-direction: row;
+    flex-wrap: nowrap; }
   #skills .img-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 35px 0 0; }
+    padding: 35px 0; }
   #skills #myBtnContainer {
     display: flex;
     justify-content: center;
@@ -873,7 +903,7 @@ nav {
       font-size: 18px;
       font-family: Montserrat, sans-serif;
       letter-spacing: 1px; }
-  #contact img {
+  #contact .icon {
     background: #014bb4;
     padding: 5px 9px 5px 5px; }
 
@@ -1114,6 +1144,13 @@ footer {
   #skills p {
     font-size: 12px;
     letter-spacing: 1px; }
+  #skills .fas {
+    font-size: 18px; }
+  #skills .port-mess {
+    padding: 10px;
+    font-size: 14px;
+    margin: 50px 0px 0px;
+    text-align: justify; }
   #portfolio-hero .portfolio-header {
     padding: 0 15px 110px; }
   #portfolio-hero .p-title {
@@ -1153,7 +1190,7 @@ footer {
       padding: 100px 15px 30px; }
       #portfolio .updated .txt, #portfolio .updated .x {
         display: none; }
-  #contact img {
+  #contact .icon {
     width: 53px;
     height: 47px; }
   #contact .contact-field,
