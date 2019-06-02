@@ -298,6 +298,33 @@ nav {
       transition: 400ms;
     }
   }
+  .hero-button-wrapper {
+    display: flex;
+  }
+  .btns {
+    outline: none;
+    padding: 15px 0px;
+    background: linear-gradient(to top left,$hotpink, $coral);
+    cursor: pointer;
+    font-family: $font-text;
+    margin: 10px;
+    color: $off-white;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    font-weight: 700;
+    opacity: 1;
+    width:200px;
+  }
+  .btns:hover {
+    transition: 400ms;
+    background: linear-gradient(to top left,$skyblue, $blue);
+    color: $off-white;
+  }
+  .fas {
+    font-size: 20px;
+  }
 
   .hero-bg {
     position: relative;
@@ -1413,6 +1440,15 @@ nav {
       font-size: 17px;
       letter-spacing: 1px;
     }
+    .btns {
+      font-size: 14px;
+      width: 180px;
+      letter-spacing: 1px;
+      margin: 5px;
+    }
+    .fas {
+      font-size: 18px;
+    }
   }
   #portfolio-hero .p-title {
     letter-spacing: 4px;
@@ -1487,8 +1523,13 @@ nav {
     p {
       margin-bottom: 160px;
     }
-    .down {
-      font-size: 30px;
+    .btns {
+
+      padding: 8px;
+
+    }
+    .hero-button-wrapper {
+      flex-direction: column;
     }
   }
   #about {

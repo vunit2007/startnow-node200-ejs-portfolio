@@ -209,6 +209,29 @@ nav {
       color: #f76e8b;
       opacity: 1;
       transition: 400ms; }
+  #hero .hero-button-wrapper {
+    display: flex; }
+  #hero .btns {
+    outline: none;
+    padding: 15px 0px;
+    background: linear-gradient(to top left, #f65578, #f88379);
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    margin: 10px;
+    color: #fdfdfd;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    font-weight: 700;
+    opacity: 1;
+    width: 200px; }
+  #hero .btns:hover {
+    transition: 400ms;
+    background: linear-gradient(to top left, #4db8ff, #000098);
+    color: #fdfdfd; }
+  #hero .fas {
+    font-size: 20px; }
   #hero .hero-bg {
     position: relative;
     overflow: hidden;
@@ -1079,6 +1102,13 @@ footer {
     max-width: 410px;
     font-size: 17px;
     letter-spacing: 1px; }
+  #hero .btns {
+    font-size: 14px;
+    width: 180px;
+    letter-spacing: 1px;
+    margin: 5px; }
+  #hero .fas {
+    font-size: 18px; }
   #portfolio-hero .p-title {
     letter-spacing: 4px; }
   #portfolio .featured .ficus-scroll {
@@ -1125,8 +1155,10 @@ footer {
     line-height: 1.3; }
   #hero p {
     margin-bottom: 160px; }
-  #hero .down {
-    font-size: 30px; }
+  #hero .btns {
+    padding: 8px; }
+  #hero .hero-button-wrapper {
+    flex-direction: column; }
   #about .bio {
     padding: 55px 15px 30px;
     font-size: 14px;
