@@ -304,7 +304,7 @@ nav {
   .btns {
     outline: none;
     padding: 15px 0px;
-    background: linear-gradient(to bottom left,$hotpink, $coral);
+    background: radial-gradient($hotpink, $coral);
     cursor: pointer;
     font-family: $font-text;
     margin: 10px;
@@ -319,7 +319,7 @@ nav {
   }
   .btns:hover {
     transition: 400ms;
-    background: linear-gradient(to top left,$skyblue, $blue);
+    background: radial-gradient($blue, $skyblue);
     color: $off-white;
   }
   .fas {
