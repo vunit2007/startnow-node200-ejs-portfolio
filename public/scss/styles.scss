@@ -304,7 +304,7 @@ nav {
   .btns {
     outline: none;
     padding: 15px 0px;
-    background: linear-gradient(to top left,$hotpink, $coral);
+    background: linear-gradient(to bottom left,$hotpink, $coral);
     cursor: pointer;
     font-family: $font-text;
     margin: 10px;
@@ -1442,7 +1442,7 @@ nav {
     }
     .btns {
       font-size: 14px;
-      width: 180px;
+      width: 190px;
       letter-spacing: 1px;
       margin: 5px;
     }
@@ -1523,7 +1523,7 @@ nav {
       margin-bottom: 140px;
     }
     .btns {
-      padding: 15px;
+      padding: 13px;
     }
     .hero-button-wrapper {
       flex-direction: column;
