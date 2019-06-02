@@ -1522,6 +1522,12 @@ nav {
     p {
       margin-bottom: 140px;
     }
+    .btns {
+      padding: 15px;
+    }
+    .hero-button-wrapper {
+      flex-direction: column;
+    }
   }
   #about {
     .bio {
