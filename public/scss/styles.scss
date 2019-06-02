@@ -1504,7 +1504,7 @@ nav {
   }
   #hero {
     .intro {
-      padding: 0 10px 10px;
+      padding: 0 10px 50px;
     }
     h1 {
       font-size: 54px;
@@ -1521,12 +1521,10 @@ nav {
       line-height: 1.3;
     }
     p {
-      margin-bottom: 160px;
+      margin-bottom: 125px;
     }
     .btns {
-
-      padding: 8px;
-
+      padding: 10px;
     }
     .hero-button-wrapper {
       flex-direction: column;
