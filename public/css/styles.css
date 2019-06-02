@@ -214,7 +214,7 @@ nav {
   #hero .btns {
     outline: none;
     padding: 15px 0px;
-    background: linear-gradient(to top left, #f65578, #f88379);
+    background: radial-gradient(#f65578, #f88379);
     cursor: pointer;
     font-family: Montserrat, sans-serif;
     margin: 10px;
@@ -228,7 +228,7 @@ nav {
     width: 200px; }
   #hero .btns:hover {
     transition: 400ms;
-    background: linear-gradient(to top left, #4db8ff, #000098);
+    background: radial-gradient(#000098, #4db8ff);
     color: #fdfdfd; }
   #hero .fas {
     font-size: 20px; }
@@ -1104,7 +1104,7 @@ footer {
     letter-spacing: 1px; }
   #hero .btns {
     font-size: 14px;
-    width: 180px;
+    width: 190px;
     letter-spacing: 1px;
     margin: 5px; }
   #hero .fas {
@@ -1156,7 +1156,7 @@ footer {
   #hero p {
     margin-bottom: 140px; }
   #hero .btns {
-    padding: 15px; }
+    padding: 13px; }
   #hero .hero-button-wrapper {
     flex-direction: column; }
   #about .bio {
