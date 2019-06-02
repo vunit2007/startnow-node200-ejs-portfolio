@@ -218,6 +218,7 @@ nav {
     background-image: linear-gradient(to bottom, rgba(255, 168, 76, 0.8) 0%, rgba(0, 0, 152, 0.6) 100%), url("../image/lakesky.jpg");
     background-blend-mode: overlay;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
     height: 101vh;
     width: 100vw;
@@ -319,6 +320,7 @@ nav {
 #about {
   position: relative;
   background: linear-gradient(to top left, #f88379, #f65578), url("../image/about3.png");
+  background-repeat: no-repeat;
   background-blend-mode: color;
   background-size: cover;
   background-position: center center;
