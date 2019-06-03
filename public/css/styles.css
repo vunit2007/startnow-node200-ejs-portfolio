@@ -214,7 +214,7 @@ nav {
   #hero .btns {
     outline: none;
     padding: 15px 0px;
-    background: radial-gradient(#f65578, #f88379);
+    background: radial-gradient(#000098, rgba(77, 184, 255, 0.6));
     cursor: pointer;
     font-family: Montserrat, sans-serif;
     margin: 10px;
@@ -228,7 +228,7 @@ nav {
     width: 200px; }
   #hero .btns:hover {
     transition: 400ms;
-    background: radial-gradient(#000098, #4db8ff);
+    background: radial-gradient(#000098, #f88379);
     color: #fdfdfd; }
   #hero .fas {
     font-size: 20px; }
