@@ -52,9 +52,9 @@ a:hover {
   float: right;
   margin-top: 25px; }
   .btn:hover {
+    transition: 400ms;
     background: linear-gradient(to top left, #4db8ff, #014bb4, #4db8ff);
-    color: #fdfdfd;
-    transition: all 400ms; }
+    color: #fdfdfd; }
   .btn.active {
     outline: none; }
   .btn:focus {
@@ -215,7 +215,7 @@ nav {
   #hero .btns {
     outline: none;
     padding: 15px 0px;
-    background: radial-gradient(#000098, rgba(77, 184, 255, 0.9));
+    background: radial-gradient(#000098, rgba(77, 184, 255, 0.8));
     cursor: pointer;
     font-family: Montserrat, sans-serif;
     margin: 10px;
@@ -670,6 +670,16 @@ nav {
   border-radius: 36px;
   margin: 0 5px 10px 0;
   padding: 3px 10px; }
+
+#portfolio .github-repo {
+  padding: 0 20px;
+  color: #bebebe;
+  font-size: 30px;
+  float: right;
+  margin-top: 25px; }
+  #portfolio .github-repo:hover {
+    color: #4db8ff;
+    transition: all 400ms; }
 
 .message {
   background: black;

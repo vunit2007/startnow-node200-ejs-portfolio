@@ -110,9 +110,9 @@ a:hover {
   float: right;
   margin-top: 25px;
   &:hover {
+    transition: 400ms;
     background: linear-gradient(to top left,$skyblue, $lightblue, $skyblue);
     color: $off-white;
-    transition: all 400ms;
   }
   &.active {
     outline: none;
@@ -872,6 +872,17 @@ nav {
     border-radius: 36px;
     margin: 0 5px 10px 0;
     padding: 3px 10px;
+  }
+  .github-repo {
+    padding: 0 20px;
+    color: $link;
+    font-size: 30px;
+    float: right;
+    margin-top: 25px;
+    &:hover {
+      color: $skyblue;
+      transition: all 400ms;
+    }
   }
  }
 
